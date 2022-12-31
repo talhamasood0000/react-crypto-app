@@ -10,6 +10,7 @@ const baseUrl = 'https://coinranking1.p.rapidapi.com';
 const createRequest = (url) => ({ url, headers:cryptoApiHeaders })
 // https://captain-eo.hashnode.dev/an-easy-way-to-make-api-calls-redux-toolkit
 // all code explained here
+
 export const cryptoApi = createApi({
     reducerPath: 'cryptoApi',
     baseQuery: fetchBaseQuery({ baseUrl }),
