@@ -2,13 +2,14 @@ import React from 'react';
 import { Switch, Route, Link } from "react-router-dom";
 import { Button, Menu, Typography, Avatar } from 'antd';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined, MonitorOutlined } from '@ant-design/icons';
-import icon from "../images/icon.jfif";
+
+const icon = "https://i.ibb.co/Z11pcGG/cryptocurrency.png"
 
 const Navbar = () => {
   return (
     <div className='nav-container'>
         <div className='logo-container'>
-            <Avatar source={icon} size="large"/>
+            <Avatar source={icon} size="large" alt=''/>
             <Typography.Title level={2} className='logo'>
             <Link to="/">Cryptography</Link>
             </Typography.Title>
