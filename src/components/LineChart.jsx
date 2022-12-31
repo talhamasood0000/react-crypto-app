@@ -7,18 +7,13 @@ import {
     LinearScale,
     PointElement,
     LineElement,
-    Tooltip,
-    Legend,
   } from 'chart.js'
-import { Chart } from 'react-chartjs-2'
   
-  ChartJS.register(
+ChartJS.register(
     CategoryScale,
     LinearScale,
     PointElement,
     LineElement,
-    Tooltip,
-    Legend
   )
 const { Title } = Typography;
 
